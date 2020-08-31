@@ -1,0 +1,196 @@
+
+	/*Login style - BSW*/
+	
+	body {font-family: Arial, Helvetica, sans-serif;}
+	
+	/* The Modal (background) 팝업 로그인*/
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 2; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+	
+	/* Modal Content */
+	.modal-content {
+		background-color: #fefefe;
+		margin: auto;
+		/* padding: 20px; */
+		border: 1px solid #888;
+		width: 870px;
+		height: 560px;
+	}
+	
+	/* The Close Button */
+	.close {
+	  color: #aaaaaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+	  color: #000;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
+	.close-section{
+		width: 860px;
+		height: 30px;;
+	}
+
+    
+    /*login-section*/
+    .logindiv{
+        width: 830px;
+        height :510px;
+    }
+    
+    .fl-left{
+		float: left;   
+    }
+    .login-section{
+        width: 430px;
+        height: 510px;
+    }
+	.left-pad{
+		padding: 2% 5%;
+		text-align: left;
+	}
+
+.login-section h2{
+	margin-top: 5px;
+	margin-bottom: 45px;
+}
+
+.login-input-area .input-text{
+	display: block;
+    width: 100%;
+	height: 46px;
+	margin-bottom: 13px;
+}
+.input-text{
+	display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #444;
+    border: 1px solid #d8d9db;
+    vertical-align: middle;
+}
+/*아이디 저장 기능*/
+.id-save{
+	margin-top: 20px;
+}
+label{
+	cursor: pointer;
+}
+
+
+/*로그인버튼*/
+.login-btn-area {
+	margin-top: 20px;
+}
+
+.login-btn-area .login-btn{
+	display: block;
+    width: 100%;
+    height: 46px;
+}
+.login-btn{
+    padding: 0 10px;
+    line-height: 30px;
+    color:rgb(254 254 254);
+    border: 1px solid rgb(79, 144, 101);
+	vertical-align: middle;
+	background-color: rgb(79, 144, 101);
+	border-radius: 8px;
+}
+	
+/*아이디 비번 찾기, 회원가입, 비회원로그인*/
+.login-select-area{
+	padding: 30px 0 37px 0;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.login-select-area a:first-child{
+	margin-left: 0;
+	padding-left: 0;
+}
+.login-select-area a:first-child::before{	
+	display: none !important;
+}
+.login-select-area a{
+	display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 0 0 0 27px;
+    padding: 0;
+    font-size: .9333em;
+    color: #666;
+}
+
+.login-section .login-select-area a::before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	width: 1px;
+	height: 16px;
+	margin-top: -8px;
+	background-color: #d8d9db;
+	pointer-events: none;
+}
+
+/*간편로그인*/
+.easy-login-area{
+    padding: 20px 0 30px 0;
+    text-align: center;
+    line-height: 1.1;
+}
+.easy-login-area img{
+	margin: 10px 20px;
+}
+
+/*카카오로그인*/
+.kakao-login{
+	display: inline-block;
+	background-color: #feeb35;
+	color : black;
+	width: 330px;
+	height: 42px;
+	font-size: 15px;
+	line-height: 42px;
+	font-weight: normal;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+.icon-kakao img{
+	width: 23px !important;
+	height: 23px !important;
+	margin: 0 4px 0 0;
+}
+
+
+/*오른쪽 이미지*/
+
+	.fl-right{
+		float: right;
+	}
+		
+	#loginImg{
+		width: 395px;
+		height: 510px;
+	}

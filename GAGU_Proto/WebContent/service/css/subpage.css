@@ -1,0 +1,73 @@
+/*게시판*/
+#board {
+    width: 1000px;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0 100px 0 100px;
+}
+
+#board table#notice {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+#board table#notice tr {
+    height: 43px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#board table#notice th {
+    height: 30px;
+    border-top: 1px solid black;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: seo;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f2f3f4;
+    background-position: center center;
+    color: #000000;
+    text-align: center;
+}
+#board th.tno {
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#board th.ttitle {
+    width: 400px;
+    letter-spacing: 0.7em;
+}
+
+#board th.tdate {
+    width: 50px;
+}
+
+#board th.tread {
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#board table#notice td {
+    padding: 2px 10px;
+    font-size: 15px;
+    color: #6e6e6e;
+}
+
+#board td.dno {
+    text-align: center;
+}
+
+#board td.dtitle {
+    text-align: left;
+}
+
+
+#board td.ddate {
+    text-align: center;
+}
+#board td.dread {
+    text-align: center;
+}
